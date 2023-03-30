@@ -1,0 +1,195 @@
+.body{
+  width: 100%; /* ocupar ancho completo de la pantalla */
+  height: auto; /* altura automática basada en el contenido */
+  position: relative; /* posición relativa para hijos posicionados absolutamente */
+}
+
+  
+  .seccion-2 {
+    background: #243429;
+    width: 50%;
+    height: auto;
+    float: left;
+  }
+  
+  .seccion-3 {
+    
+    background:#FFFDD0;
+    width: 50%;
+    height: auto;
+    float: left;
+  }
+
+  .container-1{
+    width: auto;
+    height: auto;
+  }
+  
+  .minombre{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+  }
+
+  .linea-1{
+  
+    width: 300px;
+    margin: 10px;
+    margin-left: 200px;
+    border: 3px solid blue;
+      
+  }
+
+  
+  .orden-1 {
+    list-style-type: none;
+    color: white;
+  }
+
+  .orden-2 {
+    list-style-type: disc;
+    color: white;
+    padding-left: 100px;
+  }
+  
+  .edad{
+    display: flex; /* para utilizar flexbox */
+    align-items: center; /* para alinear verticalmente */
+    
+  }
+  .ed-1{
+    float: right;
+    margin-right: 10px; /* para separar la imagen del texto */
+    width: 30px; /* ajustar el ancho de la imagen */
+    height: auto; /* mantener la proporción de aspecto */
+
+  }
+
+  .nacion{
+    display: flex; /* para utilizar flexbox */
+    align-items: center; /* para alinear verticalmente */
+    
+  }
+  .nacion-1{
+    float: right;
+    margin-right: 10px; /* para separar la imagen del texto */
+    width: 30px; /* ajustar el ancho de la imagen */
+    height: auto; /* mantener la proporción de aspecto */
+
+  }
+
+  .cumple{
+    display: flex; /* para utilizar flexbox */
+    align-items: center; /* para alinear verticalmente */
+    
+  }
+  .cumple-1{
+    float: right;
+    margin-right: 10px; /* para separar la imagen del texto */
+    width: 30px; /* ajustar el ancho de la imagen */
+    height: auto; /* mantener la proporción de aspecto */
+
+  }
+
+  .sb-1{
+    color: white;
+  }
+
+
+.sb-2{
+  color: white;
+}
+
+  .header-content-left{
+
+    background: white;
+    
+  }
+  .header-content-left img{
+ 
+    max-width: 100%;
+    height: auto;
+    
+}
+.sb-1 img{
+  width: 50px;
+
+
+}
+
+
+.btn-primary {
+  background-image: url('TEL.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+ 
+}
+
+.btn2 {
+  background-image: url('CORREO.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+ 
+}
+
+.btn3 {
+  background-image: url('IND.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+ 
+}
+.lista-estudio{
+  color: black;
+  font: bold;
+}
+
+.estudios{
+  color: black;
+  font-size: 25px;
+  list-style-type:square;
+  padding-left: 100px;
+  color: #3f2817;
+  
+}
+
+.escuela{
+  
+  padding-left: 50px;
+  font-size: 25px;
+  text-decoration: underline
+  
+}
+
+.carrera{
+  
+  padding-left: 50px;
+  font-size: 20px;
+
+  
+}
+
+.fecha{
+
+  padding-left: 50px;
+  font-size: 15px;
+  line-height: 0.2;
+  opacity: 45%;
+}
+
+.experiencia{
+  color: black;
+  font-size: 20px;
+  padding-left: 100px;
+  line-height: 2.5;
+  
+}
+
+
+
